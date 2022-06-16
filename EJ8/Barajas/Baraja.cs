@@ -10,6 +10,11 @@ namespace EJ8.Barajas
     {
         public List<Carta> listaCartas { get; set; }
  
+        public Baraja ()
+        {
+            listaCartas = new List<Carta> ();
+        }
+
         public void Barajar()
         {
             if (listaCartas.Count == 0)

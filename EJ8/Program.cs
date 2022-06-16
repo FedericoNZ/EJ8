@@ -3,9 +3,6 @@
 Baraja baraja1 = new Baraja();
 Baraja mano = new Baraja();
 
-baraja1.listaCartas = new List<Carta>();
-mano.listaCartas = new List<Carta>();
-
 for(int j = 0; j < 4; j++)
 {
     for (int k = 0; k < 12; k++)
